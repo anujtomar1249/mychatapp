@@ -1,0 +1,47 @@
+.auth {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.auth button {
+  /*
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #77bfa3;
+  color: black;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  */
+  background-color: #77bfa3; /* Blue background */
+  border: none; /* Remove border */
+  color: black; /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the element inline-block */
+  font-size: 16px; /* Increase font size */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.auth button:hover {
+  background-color: #77bfa3; /* Darker blue background */
+  transform: scale(1.05); /* Slightly increase size */
+}
+
+.auth button:active {
+  background-color: #77bfa3; /* Even darker blue background */
+  transform: scale(0.95); /* Slightly decrease size */
+}
+
+.auth button:focus {
+  outline: none; /* Remove the default outline */
+  box-shadow: 0 0 10px #98c9a3; /* Add a custom focus outline */
+}
